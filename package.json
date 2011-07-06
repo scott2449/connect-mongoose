@@ -4,9 +4,6 @@
   , "version": "0.0.1"
   , "main": "./index.js",
   , "description": "Mongoose based SessionStorage for connect's session middleware",
-  , "dependencies": {
-      "express": "2.4.0"
-  }
   , "repository": {
     "type": "git",
     "url": "git://github.com/scott2449/connect-mongoose.git"
