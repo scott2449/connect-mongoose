@@ -23,7 +23,6 @@
  */
 
 //TODO: Allow the passing of authentication params and/or a different mongoose instance. This one depends on the fact that the global mongoose object contains a valid connection
-//TODO: Package properly and post to npm/github. Goodwill from n1 and one less thing we need to make part of our builds =)
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
