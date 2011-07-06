@@ -16,7 +16,7 @@ via npm:
 
 You have a complete example on `example/index.js`.
 
-    var connect = require('express');
+    var connect = require('connect');
 	var sessionStore = require("connect-mongoose")(connect);
 	var mongoose = require("mongoose");
 	
