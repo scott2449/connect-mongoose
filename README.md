@@ -14,7 +14,7 @@ via npm:
 
 ## Example
 
-You have a complete example on `example/index.js`.
+Keep in mind this module is supposed to help folks already using mongoose leverage it for their sessions, so at the moment it does not spin up it's own instance. In the future I want to have the ability to pass configuration for an instance or it will spin up one by default. Also looking to support authentication etc.. For now that can all be managed by setting up / reusing an existing mongoose connection.
 
     var connect = require('connect');
 	var sessionStore = require("connect-mongoose")(connect);
