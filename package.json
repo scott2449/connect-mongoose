@@ -11,9 +11,6 @@
   , "engines": {
     "node": ">= v0.4.0"
   }
-  , "dependencies": {
-    "connect": ">= 1.5.0",
-    "mongoose": ">= 1.5.0"
-  }
+  , "dependencies": {}
   , "devDependencies": {}
 }
