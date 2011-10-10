@@ -22,7 +22,7 @@ Keep in mind this module is supposed to help folks already using mongoose levera
 	
 	mongoose.connection.on("open", function() {
 		var server = connect.createServer(connect.cookieParser(), connect.session({
-			secret : "secret"
+			secret : "secret",
 			store : new sessionStore()
 		}));
 	
