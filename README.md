@@ -26,7 +26,7 @@ Keep in mind this module is supposed to help folks already using mongoose levera
 			store : new sessionStore()
 		}));
 	
-		server.use('/', connect.router(function(app) {
+		server.use(connect.router(function(app) {
 			app.get('/', function(req, res) {
 				res.write(JSON.stringify(req.session));
 				res.end("Sweet!");
