@@ -1,7 +1,7 @@
 {
     "name": "connect-mongoose"
   , "author": "Scott Rahner, N1 Concepts"
-  , "version": "0.0.1"
+  , "version": "0.0.2"
   , "main": "./index.js"
   , "description": "Mongoose based SessionStorage for connect's session middleware"
   , "repository": {
