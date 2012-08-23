@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/scott2449/connect-mongoose.png)](http://travis-ci.org/scott2449/connect-mongoose)
 # connect-mongoose
 
 connect-mongoose is a mongoDB session store backed by mongoose(http://github.com/LearnBoost/mongoose).
