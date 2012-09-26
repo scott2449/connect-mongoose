@@ -1,16 +1,20 @@
 {
-    "name": "connect-mongoose"
-  , "author": "Scott Rahner, N1 Concepts"
-  , "version": "0.0.2"
-  , "main": "./index.js"
-  , "description": "Mongoose based SessionStorage for connect's session middleware"
-  , "repository": {
+  "name": "connect-mongoose",
+  "author": "Scott Rahner, N1 Concepts",
+  "version": "0.0.2",
+  "main": "./index.js",
+  "description": "Mongoose based SessionStorage for connect's session middleware",
+  "repository": {
     "type": "git",
     "url": "git://github.com/scott2449/connect-mongoose.git"
-  }
-  , "engines": {
+  },
+  "engines": {
     "node": ">= v0.4.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "should": ">1.0.0",
+    "mongoose":">2.5.0",
+    "connect":"*"
   }
-  , "dependencies": {}
-  , "devDependencies": {}
 }

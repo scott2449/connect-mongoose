@@ -1,2 +1,4 @@
-/.project
-npm-debug.log
+/.*
+!.gitignore
+/*.log
+node_modules

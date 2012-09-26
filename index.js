@@ -26,7 +26,7 @@
 var mongoose = require("mongoose");
 var Schema = mongoose.Schema;
 
-SessionSchema = new Schema({
+var SessionSchema = new Schema({
 	"sid" : {
 		"type" : String,
 		"required" : true,
@@ -42,7 +42,7 @@ SessionSchema = new Schema({
 	}
 });
 
-Session = mongoose.model("Session", SessionSchema);
+var Session = mongoose.model("Session", SessionSchema);
 
 module.exports = function(connect) {
 
