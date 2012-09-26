@@ -19,6 +19,6 @@
     "mocha":"*"
   },
   "scripts": {
-    "test": "mocha test.js"
+    "test": "mocha -R spec"
   }
 }
